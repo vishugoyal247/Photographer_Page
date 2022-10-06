@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:"https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap";
+}
+
+
+                                                            /* NavBar */
+
+#Nav{
+    color: white;
+    padding: 10px 50px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#NavList{
+    /* background: rebeccapurple; */
+    display: flex;
+    text-decoration: none;
+
+}
+
+#NavList > li {
+    font-size: large;
+    color: white;
+    padding: 0 10px;
+    margin: 0 10px;
+    list-style: none;
+}
+
+
+#NavList > li:hover {
+
+    color: cyan;
+    
+
+}
+
+button:hover{
+    background: cyan;
+    color: white;
+
+}
+
+
+
+                                   /* Center Body */
+
+
+
+#CenterBody{
+    margin:0 100px;
+    
+
+}
+
+#center-top{
+    margin: 10px 20px;
+    background: rgb(156, 139, 108);
+    padding: 5px 20px;
+    
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+.cardInside{
+    width: 390px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+.cardInside:hover{
+
+}
+
+
+
+                                    /* Footer */
+
+#upper{
+
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1566423471547-2a37c9a39899?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    /* background: yellowgreen; */
+    background-repeat: no-repeat;
+    width: 1140;
+    /* height: 150px; */
+    margin-bottom: 0;
+    padding: 20px;
+    background-size: cover;
+
+}
+
+#bottom{
+    
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+   
+    letter-spacing: 1px;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+.head{
+    font-size:xx-large;
+    font-weight: 800;
+}
+
+
+
